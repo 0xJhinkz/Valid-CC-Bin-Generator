@@ -25,6 +25,25 @@ To install all the required modules use the following code:
 # ⚠️ Disclaimer
 This program is designed for educational purpose only I am not responsible how this program is use.
 
+# Telegram Bot Integration
+To run the Telegram bot, set your token as an environment variable and start `telegram_bot.py`:
+
+```bash
+export TELEGRAM_BOT_TOKEN="YOUR_TELEGRAM_BOT_TOKEN"
+python telegram_bot.py
+```
+
+Supported commands:
+- `/start`
+- `/help`
+- `/generate <type> <count> [bin_prefix]`
+- `/lookup <bin>`
+- `/validate <card_number>`
+- `/visa <count> [bin_prefix]`
+- `/mastercard <count> [bin_prefix]`
+- `/amex <count> [bin_prefix]`
+- `/discover <count> [bin_prefix]`
+
 ### 💵 Donations (Optional)
 If you like my projects then consider making a small donation by clicking below button ^_^
 <br/>
